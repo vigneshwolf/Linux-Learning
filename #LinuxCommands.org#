@@ -1,0 +1,59 @@
+Linux Commands;
+
+    $ date - Show's the date and time for the day.
+    Ctrl+d - Is used for exiting.
+    echo - simply displays an argument
+
+
+    ls - Lists the name of files
+
+    cat > - Is the simplest way used to create a file
+
+    cat filename - displays the text inside the file name
+
+    rm (remove) - Is used to delet the file.
+
+    cp (copy) - copying a file.
+
+    mv (move) - Is used to move or rename a file.
+
+    whoami _ shows your name on the Linux
+
+    hostname - shows your host name
+
+    uname - Shows the linux user name
+
+    psw (print working directory) - To see the current directory
+
+    cd (current directory) - cd is used to change the directory and path
+
+    mkdir - used to create a new empty directory
+
+    rmdir - Used to delete the empty directory
+
+    .. - this is used to go back to the old and new directories it is.
+
+    ls -a - it is use to find all the files hidden and non hidden files
+
+    ~ - is a tilde is an abrivation for your home directory
+
+    locate mkdir - to find the files whose name contains mkdir
+
+    ls -l - Is used to find the size of the file
+
+    rm name.txt and etc - is used in many ways to delet several files
+
+    mkdir - is also used in many ways to make several directorie in one go
+
+    cat - can be used to join multiple files to geather
+
+    man - is used to read the manual for the program
+
+    man mkdir - is used to read the man page.
+
+    q - is used to quit it from the man page.
+
+    l
+    cal - is used for calander
+
+    
