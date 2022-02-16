@@ -1,0 +1,123 @@
+Linux Commands;
+
+    $ date - Show's the date and time for the day.
+    Ctrl+d - Is used for exiting.
+    echo - simply displays an argument
+
+
+    ls - Lists the name of files
+
+    cat > - Is the simplest way used to create a file
+
+    cat filename - displays the text inside the file name
+
+    rm (remove) - Is used to delet the file.
+
+    cp (copy) - copying a file.
+
+    mv (move) - Is used to move or rename a file.
+
+    whoami _ shows your name on the Linux
+
+    hostname - shows your host name
+
+    uname - Shows the linux user name
+
+    psw (print working directory) - To see the current directory
+
+    cd (current directory) - cd is used to change the directory and path
+
+    mkdir - used to create a new empty directory
+
+    rmdir - Used to delete the empty directory
+
+    .. - this is used to go back to the old and new directories it is.
+
+    ls -a - it is use to find all the files hidden and non hidden files
+
+    ~ - is a tilde is an abrivation for your home directory
+
+    locate mkdir - to find the files whose name contains mkdir
+
+    ls -l - Is used to find the size of the file
+
+    rm name.txt and etc - is used in many ways to delet several files
+
+    mkdir - is also used in many ways to make several directorie in one go
+
+    cat - can be used to join multiple files to geather
+
+    man - is used to read the manual for the program
+
+    man mkdir - is used to read the man page.
+
+    q - is used to quit it from the man page.
+
+    cal - is used for calander
+
+    pwd - (print working directory)
+
+    mkdir - it is used to create a directory
+
+    mkdir /scr/edu - This creates a subdirectory
+
+    -v mkdir - prints a message to each directories
+
+    mkdir -v -p - This command is used to or compromises to open a same directories
+
+    ls - Using to list the contents of the current working directories
+
+    cd - used to navigate the directories
+
+    less - it is used to for viewing text files.
+
+    less Desktop/.txt - this command to read or displey the text files
+
+    less -N - Displayes the line Section numbers
+
+    'N - Is used to navigate to the next files
+
+    'p - Is used to navigate the previous files
+
+    ls - shows the desktop and pc files and folders lists
+
+    Insted of using cd to navigate the directories we want use (directory name) (ls Desktop/)
+
+    ls.. refers to the parent of the current working directory.
+
+    ls../Desktop - (..) refers to the parent directory and (/Desktop) refers to the desktop directories
+
+    ls -l - (-l) refers to long listing format.
+
+    ls -a - this command displayes hidden files too
+
+    ls -lh - this command shows us the files that are in the current directories in MB or KB
+
+    rm - This command can be used to delet the file or directories too. !This comman is dangerous!
+
+    rm -filename - This command is used to delete the mentioned file name .
+
+    rm (filename) -i - This command the (-i) will give an alert before deleting a file like (remove regular file (filename)?)
+
+    rm (filenam) -v - This command (-v) will give you a alert that the file is deleted
+
+    rm (directoryname) -r - This command (-r) will delet the directory.
+
+    rm -r -I -v - This removes the directory and gives an alert of what done with this command.
+
+    cd - Basic command lines using cd command
+    
+    cd (directory name)/ will change the directory
+
+    cd .. - returnes to the old directories
+
+    cd../.. - will refer to the parent directory (../..) is the parent of the directory which is the (home)
+
+    cd - can be used to navigate the subdirectories too
+
+    
+
+   
+    
+
+    
