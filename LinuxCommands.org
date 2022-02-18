@@ -115,6 +115,86 @@ Linux Commands;
 
     cd - can be used to navigate the subdirectories too
 
+    .. - Refers to patern to the current working directory
+
+    / - refers to the root of the directory (or) viewing a file.
+
+    mv - move files
+
+    mv - this command is used to move files
+
+    mv Desktop/name.txt kamal - this command moves the name.txt file from the Desktop directory to kamal directory
+
+    mv -v - will explain the process whats being done
+
+    mv - can also be used to move multiple files to a comman destination directory to move multiple files
+
+    mv WXYZ (kamal directory) - all four files moved to one directory
+
+    cd ~ - using (cd) to navigate using ~
+
+    The path of the home directory can also by printing the value stored in the home enviroment variable (echo $home)
+
+    ls /home - This command is used for checking other users in home directories
+
+    ls ~vignesh - This command refers to the home directory
+
+    cd ~ - This command refers to the users own directory
+
+    cd ~/Desktop - Refers to the Desktop directory
+
+    ln - Is used to create a symbolic link
+
+    ln - makes linksbetween files
+
+    ln -s Desktop/kamal W - This brings the files on the desktop in a folder of kamal thers a W directory. it brings out to the main directory
+
+    file W - for checking that we can use file w and it shows
+
+    ls -l - to verify
+
+    -l - the (-l) long file format shows W is a link and it points to the corosponding directory
+
+    ln -s Desktop/kamal - when we invoke (ln) in this manar. providing only a single file as an argument (ln) creates a symbolic link to the file with the same lane in the
+    current working directory.
+
+    file - to determine a file type.
+
+    file /usr/share/man/manl/sportify - this tells us that sportify is a data.
+
+    file Desktop/kamal - we can see that this is a directory
+
+    cp -  copying a single file
+
+    cp -r Desktop/kamal X - (-r) is recrusive- the result is a file in the current directory which is X.
+
+    cp X kamal - this kamal directory contains the copy of X
+
+    echo - to display a simple line of text messgae
+
+    echo "Hello,World" - echo prints the message to a standard output
+
+    echo - this displayes miltiple line messages.
+
+    echo " Hello, World - the content of our message will continue until we enter a closing quotation mark.
+
+    echo - can be used to diaplay message with a escape sequence.
+
+    echo - Is a bash built in command.
+
+    echo "i am ?\tvignesh" - This command /t didnt create a space between i am? and vignesh.
+
+    echo -e - Is enabled interpretation of the following backlash escape.
+
+    echo -e "i am\tvignesh" - now this will display the result with a space in between.
+
+    \t\t - if we use this command it will create a double space in between a results.
+
+    echo -e - "hai this is\nvignesh" - this will display the result a line below the sentance above.
+
+    
+
+    
     
 
    
