@@ -192,7 +192,42 @@ Linux Commands;
 
     echo -e - "hai this is\nvignesh" - this will display the result a line below the sentance above.
 
-    
+    grep - Is a command line text file in lines. it prints out all the lines in matching pattern
+
+    grep ZIP - Shows the pattern with the name zip in files
+
+    ls /bin/usr/bin | grep -i ZIP - (-i) specifies that grep should ignore case distinsion
+ 
+    head and tail - Is the command that prints first and last lines of the file
+
+    head - By default ead prints the first 10 lines of the txt file
+
+    tail - prints the last 10 lines of the txt file
+
+    head file.txt - This displayes the first 10 lines of the txt file
+
+    tail file.txt - This displayes the last 10 lines of the txt file
+
+    head -n5 file.txt - This displayes the first 5 lines in the txt file (-n) prints the first number lines insted of the first 10 lines
+
+    echo - The command (echo) accepts o (or) more strings provided by the usr and prints those strings to standard output
+
+    echo hello - echo prints the string hello
+
+    echo hello world - If theres are two stings echo prints hello world.
+
+    echo hello      world - if we give a large space between the string echo prints with a single space hello world
+
+    echo "hello world" - If we put quotation marks echo prints the string as it is hello world
+
+    * - wildcard expansion command 
+
+    echo * - this displayes the list of file and apps that are in the directory
+
+    ls /usr/bin/*.h - This result is listing of all the files name in the specified directory whose file name and in *h
+
+     
+       
 
     
     
