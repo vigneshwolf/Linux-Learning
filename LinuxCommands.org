@@ -226,7 +226,66 @@ Linux Commands;
 
     ls /usr/bin/*.h - This result is listing of all the files name in the specified directory whose file name and in *h
 
-     
+    command line basics- Arithmetic expansion
+
+    Arithmetic expansion - Allows the shell to perform calculations before passing the results to a command as arguments.
+
+    Arithmetic expansion ($) (( )) double brackets around arithmetic exopansion
+
+    echo $((7+3)) = 10 - This expression has been calculated with the result 10.
+
+    Note : the arithmetic expansion only supports intigers for whole numbers
+
+    echo $((7.0 + 3)) - this expression will result in error 
+
+    Arithmetic expansion supports.
+
+   (+) , (-) , (*) , (\) , (%) , (**) .
+
+   echo $((7/2)) $((7%2)) - the result 3 and 1 the one is calculated using precentage symbol, the 3 is calculated using dividing symbol.
+
+   echo $((5**2))-25- this prints the result as 25
+
+   Inside the double print z7 arithematic expression it is possible to nest another arithematic expression
+
+   echo ((5**$((1+1)))) - here we have nested an arithematic expression 1+1 and a large expression 5 to the power of 1+1
+
+   Brace expansion command line basic 
+
+   Brace expansion creates multiple text in a pattern.
+  
+   echo abc{Brahms,Bethovan,Bach)xyz - this pattern has expands into three txt strings. result abcbrahmsxyz.
+
+   echo I love {brahms,beethovan,bach} - here bash considers I love and {brahms,beethovan,bach} to be separated token space between the words.
+
+   echo to how to specify a range in Brace expansion
+
+   echo Number_{1..5} - Number_1 Number_2 Number_3 this expanded to 5 strings
+
+   echo {a..z} - we can also use a sequence of character  with the operator here the pattern has expanded to a sequence of lower cases
+
+   echo {01..09} - Integers within a Brace expansion can be 0 padded. the result will be 01 02 03 04 05 06 07 08 09
+
+   echo Number_{5..1} - Brace expansion can also specify numbers in reverse order.
+
+   Brace expansion can also be nested 
+
+   echo a{A{1,2},B{3,4}}b - in this case (a,b) are constant in the variable part of the expansion the brace expansion is list of items separated by (commas)
+
+   Bash starts with the first item {A(1,2) this is a Brace expansion as well this expands to two strings (A1,A2) B{3,4) This strings procedure are the expransion 
+
+   Brace expansion are perticularly useful for making list of files or directories with the name other fixed format.
+
+   mkdir photos - creating a folder 
+
+   cd photos - to the photos directory
+
+   mkdir {2008..2017}-{01..12) - this command creates the folder for mentioned ten years with the months.
+
+  
+  
+
+    
        
 
     
@@ -235,4 +294,4 @@ Linux Commands;
    
     
 
-    
+ 
