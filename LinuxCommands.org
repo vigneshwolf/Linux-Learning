@@ -282,7 +282,56 @@ Linux Commands;
 
    mkdir {2008..2017}-{01..12) - this command creates the folder for mentioned ten years with the months.
 
+   escaping characters - by default the ($) sing has a special significant to the shell.
+
+   echo ${USER} - use of the $ sing here tells bash that we want to refer to the variable of the user
+
+   if we ant to print a string containing a actual $ sing we can preseve the dollar sing with a {\} 
+
+   echo \$USER - if the ($) sing followeb with txt then the quoting of the $ sing prevents expansion by treating the $ sing a actual 
+
+   echo the balance for the user ${USER} is \$5.00 - in this command there are two expansions that could take place thers a variable ${USER} that is expanded to the variable
+   vignesh secondly the escaping the \$ sing in to the literal $ sing character and prevents $5 being a variable expansion.
+
+   there are other character that has special significant to bash 
+
+   these includes - ($) , (!) , (&) , (\) , and the space charecter
+
+   command line basics double quoted stings
   
+   mkdir example - opeaning a directory
+
+   cd example - opeaning the directory
+
+   touch my\first\file.txt - this command creates the file name my first file.txt
+
+   ls -l is used to verify weather the file is created or not.
+
+   \ - the sing (\) is used to create space in between the file name
+
+   rm "my first file.txt" - by using the quotation sing the bash treats the entire string as a single token.
+
+   rm - is used to delete the files.
+
+   single quoted string command line basic
+
+   echo 'my   string with      spaces' - just a in doube quotes are used to enclose a sting. whrn a string is being enclosed with single quotes 
+   that sring has been treated by bash as a single token 
+
+   when using double quoted string word spliting and parameter expansion telda expansion and brace expansion are surpressed.
+   but parameter expansion arithematic expansion and command subtitution are still performed.
+   
+   echo Hello,    world ~/example/*.txt {3..7} $(file /etc/corntab) $((2+2)) ${USER} - bash begins by tokenising the argument line resulting in 7 tokens to pass this arguments to echo
+   the first argument is the plain text string Hello, the second argument is the plain txt string the world the third argument is the string ~/example/*.txt this argument
+   is expanded using ~ expansion and wildcard expansion in to the a.txt and b.txt thr file that i created the fouth argument is {3..7} this is expanded using brace expansion into 
+   the numbers in between the fifth argument is (file /etc/contab)within $ sing this expands the command subtitution the result of performing the (file /etc/contab) 
+   the sixth argument is the arithematic expansion the two operation $((2+2)) which is expanded using arithematic expansion in to the result 4 tthe seventh argument 
+   is the variable ${USER} which is expanded using parameter expansion in to the directory 
+
+    
+
+
+   
   
 
     
